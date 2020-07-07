@@ -1,0 +1,100 @@
+#bloc_page
+{
+width: 900px;
+margin: auto;
+border: solid 3px blanchedalmond ;
+}
+header h2
+{
+	text-align: end;
+	margin-right: 100px;
+	margin-top: 0%;
+}
+section h1, section h2
+{
+	text-transform: uppercase;
+	text-align: center;
+}
+#titre_principal
+{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: flex-end;
+	margin-right: 100px;
+}
+#logo
+{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	
+	}
+#logo img
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	vertical-align: top;
+	
+		}
+
+nav ul
+{
+	list-style: none;
+	display: flex;
+	}
+	nav li
+	{
+		margin-right: 15px;
+	}
+nav a
+{
+	color: black;
+	}
+	nav a:hover
+	{
+		color: blue;
+	}
+aside h2
+{
+	background-color: black;
+	color: blanchedalmond;
+}
+section
+{
+	display: flex;
+}
+aside
+{
+	flex: 2.1;
+	position: relative;
+		background-color: blanchedalmond;
+		padding: 10px;
+		word-wrap: break-word;
+	}
+	#image
+	{
+		display: flex;
+		justify-content: center;
+	}
+	
+	
+	#image li{
+margin-right: 50px;
+list-style: none;
+		}
+#image img
+{
+	width: 75Px;
+	height: 75px;
+	
+}
+article ul
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+article li
+{
+margin-bottom: 5px;
+}

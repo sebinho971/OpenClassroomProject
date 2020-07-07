@@ -2,7 +2,7 @@
 {
 width: 900px;
 margin: auto;
-border: solid 3px blanchedalmond ;
+border: solid 3px #efe711 ;
 }
 header h2
 {
@@ -58,7 +58,7 @@ nav a
 aside h2
 {
 	background-color: black;
-	color: blanchedalmond;
+	color: #efe711;
 }
 section
 {

@@ -71,21 +71,19 @@ aside
 		padding: 10px;
 		word-wrap: break-word;
 	}
-	#image
-	{
-		display: flex;
-		justify-content: center;
-		}
-	#image li{
-margin-right: 50px;
-list-style: none;
-		}
 #image img
 {
 	width: 75Px;
 	height: 75px;
-	
-}
+	}
+#image
+	{
+		display: flex;
+				}
+#image ul
+{
+	list-style: none;
+}				
 article ul
 {
 	margin-top: 20px;

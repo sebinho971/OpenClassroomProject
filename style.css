@@ -4,15 +4,6 @@ width: 900px;
 margin: auto;
 border: solid 3px #efe711 ;
 }
-header
-{
-color: #efe711;
-}
-header h2
-{
-	text-align: end;
-	
-}
 section h1, section h2
 {
 	text-transform: uppercase;
@@ -20,16 +11,20 @@ section h1, section h2
 }
 #titre_principal
 {
-	display: flex;
-	flex-direction: row-reverse;
-	align-items: flex-end;
-	margin-right: 100px;
+	display: table-cell;
+	margin-left: 35%;
+	}
+header h2
+{
+	margin-top: 0;
+	align-items: center;
 }
 #logo
 {
 	display: flex;
-	flex-direction: row;
-	align-items: baseline;
+	flex-direction: baseline;
+	align-items: center;
+	margin-left: 5%;
 	
 	}
 #logo img
@@ -38,6 +33,7 @@ section h1, section h2
 	height: 150px;
 	border-radius: 75px;
 	vertical-align: top;
+	margin-top: 15px;
 	
 		}
 
@@ -71,7 +67,7 @@ aside
 {
 	flex: 2.1;
 	position: relative;
-		background-color: blanchedalmond;
+		background-color: #efe711;
 		padding: 10px;
 		word-wrap: break-word;
 	}
@@ -79,9 +75,7 @@ aside
 	{
 		display: flex;
 		justify-content: center;
-	}
-	
-	
+		}
 	#image li{
 margin-right: 50px;
 list-style: none;

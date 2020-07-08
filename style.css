@@ -4,11 +4,14 @@ width: 900px;
 margin: auto;
 border: solid 3px #efe711 ;
 }
+header
+{
+color: #efe711;
+}
 header h2
 {
 	text-align: end;
-	margin-right: 100px;
-	margin-top: 0%;
+	
 }
 section h1, section h2
 {

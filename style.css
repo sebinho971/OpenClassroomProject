@@ -3,11 +3,14 @@
 width: 900px;
 margin: auto;
 border: solid 3px #efe711 ;
+font-family: font-awesome;
 }
+
 section h1, section h2
 {
 	text-transform: uppercase;
 	text-align: center;
+	
 }
 #titre_principal
 {
@@ -36,6 +39,14 @@ header h2
 	margin-top: 15px;
 	
 		}
+		article h2
+		{
+text-decoration: underline #efe711;
+		}
+.efe711
+{
+	color: #efe711;
+}		
 
 nav ul
 {
@@ -71,25 +82,15 @@ aside
 		padding: 10px;
 		word-wrap: break-word;
 	}
-#image img
-{
-	width: 75Px;
-	height: 75px;
-	}
-#image
-	{
-		display: flex;
-				}
 #image ul
 {
-	list-style: none;
-}				
-article ul
-{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-article li
-{
-margin-bottom: 5px;
-}
+	display: flex;
+	flex-direction: row;
+			}
+	#image li
+	{
+		list-style: none;
+		margin-right: 15px;
+		margin-left: 22px;
+		margin-top: 5px;
+			}
